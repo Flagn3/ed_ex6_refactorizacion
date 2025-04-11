@@ -21,8 +21,8 @@ public class NotaFinalCalculator {
 		System.out.println("¿Ha aprobado todas las RAs?: " + (aprobado ? "Sí" : "No"));
 
 		procesaCalificaciones(notasRA);
-		for (String ra : notasRA.keySet()) {
-			Double nota = notasRA.get(ra);
+		for (Map.Entry<String, Double> entry : notasRA.entrySet()) {
+			Double nota = entry.getValue();
 			clasificarNotaPorSwitch(nota);
 		}
 

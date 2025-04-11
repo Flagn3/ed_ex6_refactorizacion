@@ -21,3 +21,6 @@ Refactorizamos el método en varios métodos ```checkMenorIgual10() , checkMayor
 
 ##### issue java:S2589
 Quitar la expresión del else del método ```calcularNotaFinal()``` que en este caso siempre será true.
+
+##### issue java:S2864
+Reemplazamos el foreach por un formap, para que itere sobre un **entrySet** en lugar de sobre un **keySet**.
