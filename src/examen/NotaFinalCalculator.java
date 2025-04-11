@@ -199,7 +199,7 @@ public class NotaFinalCalculator {
 
 	// Determina si el alumno ha aprobado todas las RAs
 	private static boolean apruebaTodosLasRAs(Map<String, Double> notasRA) {
-		Map<String, Double> map = Math.random() > -1 ? notasRA : null;
+		Map<String, Double> map = notasRA;
 
 		for (String ra : PESOS_RA.keySet()) {
 			Double nota = map.get(ra);

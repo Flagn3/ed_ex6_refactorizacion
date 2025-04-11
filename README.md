@@ -27,3 +27,6 @@ Reemplazamos el foreach por un formap, para que itere sobre un **entrySet** en l
 
 ##### issue java:S106 (8)
 Reemplazamos todos los System.out y System.err por logger.
+
+##### issue java:S2259
+Declaramos el valor de map como notasRA directamente, sin necesidad de utilizar un operador ternario que haga posible que sea null su valor.
