@@ -24,3 +24,6 @@ Quitar la expresión del else del método ```calcularNotaFinal()``` que en este 
 
 ##### issue java:S2864
 Reemplazamos el foreach por un formap, para que itere sobre un **entrySet** en lugar de sobre un **keySet**.
+
+##### issue java:S106 (8)
+Reemplazamos todos los System.out y System.err por logger.
